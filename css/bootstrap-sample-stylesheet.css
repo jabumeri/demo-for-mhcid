@@ -1,0 +1,21 @@
+h1, h5 {
+	text-align: center;
+	padding: 20px;		
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.outer-row {
+	padding: 20px;
+}
+
+.inner-row {
+	text-align: center;
+	display: block;
+}
+
+h5, p {
+	font-family: 'Open Sans', sans-serif;
+}

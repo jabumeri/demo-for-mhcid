@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-sample-stylesheet.css">    
+    <title>Moodboard</title>
+  </head>
+  <body>
+    <h1>Jana Abumeri</h1>
+    
+    <div style="text-align: center;">
+      <button type="button" class="btn btn-secondary" onclick="revealText()">Hello, friend</button>
+    </div>    
+    
+    <h5 id="welcome" style="display: none;">Welcome to my moodboard</h5>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 outer-row">      
+          <img class="img-fluid" src="imgs/willow.jpg" alt=""/>
+        </div>        
+        <div class="col-md-3 outer-row">      
+          <img class="img-fluid" src="imgs/lebanon.JPG" alt=""/>
+        </div>        
+        <div class="col-md-3 outer-row">      
+          <img class="img-fluid" src="imgs/nyc.JPG" alt=""/>
+        </div>        
+        <div class="col-md-3 outer-row">      
+          <img class="img-fluid" src="imgs/nails.jpg" alt=""/>
+        </div>        
+      </div>
+      <div class="row">
+        <div class="col-xl-6 inner-row">
+          <p>What you're seeing is just a few of my favorite things, <br>whether it be clothes, nails, places I've visted, <br>or some design aesthetics.</p>
+        </div>
+        <div class="col-xl-6 inner-row">
+          <p>To name a few, we've got La La Land, NYC, <br>Lebanon, and my cat Willow. Enjoy!</p>
+        </div>        
+      </div>
+      <div class="row">
+        <div class="col-md-3 outer-row">      
+          <img class="img-fluid" src="imgs/lebanon_2.JPG" alt=""/>
+        </div>        
+        <div class="col-md-3 outer-row">      
+          <img class="img-fluid" src="imgs/kitchen.JPG" alt=""/>
+        </div>        
+        <div class="col-md-3 outer-row">      
+          <img class="img-fluid" src="imgs/lalaland.JPG" alt=""/>
+        </div>        
+        <div class="col-md-3 outer-row">      
+          <img class="img-fluid" src="imgs/clothes.JPG" alt=""/>
+        </div>        
+      </div>
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <script>
+    function revealText() {
+      var x = document.getElementById("welcome");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+  </body>
+</html>
